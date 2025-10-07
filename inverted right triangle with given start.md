@@ -5,7 +5,7 @@
 
 ## In c++
 ```cpp
-include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -26,7 +26,6 @@ int main()
 
 ## In python
 ```python
-#inverted triangle pattern with given start number
 
 n= int(input())
 start= int(input())
