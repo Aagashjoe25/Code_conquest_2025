@@ -14,9 +14,9 @@ int main()
     cin>>n;
     int arr[n][n]; // alternative int arr[3][3]= {{1,1,1},{2,2,2},{3,3,3}} can be used only when n is known
     for(int i=0;i<n;i++){
-        int num=i+1;
+        int row=i+1;
         for(int j=0;j<n;j++)
-        arr[i][j]=num;
+        arr[i][j]=row;
     }
     
     //print the array
